@@ -11,7 +11,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
-    "soop-chat-client": "^1.0.2",
+    "soop-chat-client": "^1.1.3",
     "ws": "^8.18.1"
   },
   "devDependencies": {
