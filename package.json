@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "nodemon --watch \"src/**/*.ts\" --exec tsx src/www.ts",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nodemon --watch \"src/**/*.ts\" --exec tsx src/www.ts",
     "build": "tsc"
   },
   "dependencies": {
